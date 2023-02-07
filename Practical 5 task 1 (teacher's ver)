@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(" Enter the day in the week");
+		Scanner input = new Scanner (System.in);
+	    String day = input.nextLine();
+	    switch(day)
+	    {
+	    case " Monday": 
+	        System.out.println("Read a book");
+	    case"Tuesday":
+	        System.out.println("clean the house");
+	    case "wedensday":
+	        System.out.println(" call the relatives");
+	    case "Thursday":
+	        System.out.println("play football");
+	    case"friday":
+	        System.out.println("Family lunch");
+	        break;
+	    case "suturday":
+	        System.out.println("watch a movie ");
+	        break;
+	        default:
+	        System.out.println("Invalid input");
+	    }
+	    
+	    
+	  
+	    
+	    
+	    
+	    
+	}
+}
